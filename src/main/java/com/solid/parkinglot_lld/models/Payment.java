@@ -9,7 +9,7 @@ public class Payment extends BaseModel{
     private String transactionId;
     private PaymentStatus paymentStatus;
 
-    public Payment(int id, Bill bill, PaymentType paymentType, int amount, String transactionId, paymentStatus paymentStatus) {
+    public Payment(int id, Bill bill, PaymentType paymentType, int amount, String transactionId, PaymentStatus paymentStatus) {
         super(id);
         this.bill = bill;
         this.paymentType = paymentType;

@@ -1,6 +1,8 @@
 package com.solid.parkinglot_lld.models;
 
 import java.util.Date;
+import java.util.List;
+
 @lombok.Getter
 @lombok.Setter
 public class Bill extends BaseModel{

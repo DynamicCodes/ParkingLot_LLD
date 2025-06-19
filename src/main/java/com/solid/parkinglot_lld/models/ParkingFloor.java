@@ -1,5 +1,7 @@
 package com.solid.parkinglot_lld.models;
 
+import java.util.List;
+
 @lombok.Getter
 @lombok.Setter
 public class ParkingFloor extends BaseModel{
